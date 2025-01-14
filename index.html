@@ -26,14 +26,23 @@
     </style>
 </head>
 
-<body">
-    <header class="bg-[#FFFBF0]">
-        <nav>
+<body>
+    <header class="bg-[#FFFBF0] pt-8">
+        <nav class="flex justify-center md:justify-between items-center md:px-32">
+            <div class="w-72">
+                <img src="./icons/logo.png" alt="">
+            </div>
 
+            <ul class="hidden md:flex gap-14 roboto font-medium">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
         </nav>
 
         <!-- banner section -->
-        <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-32 py-14">
+        <div class="flex flex-col-reverse gap-4 md:flex-row justify-between items-center px-4 md:px-32 py-14">
             <div class="space-y-3">
                 <h1 class="text-7xl uppercase bebas-neue">
                     <span class="text-[#FABE4C]">Be the Penguins</span>
